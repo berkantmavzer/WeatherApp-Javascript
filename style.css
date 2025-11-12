@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 600px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+}
+
+.city {
+    width: 75%;
+    border: none;
+    background-color: lightblue;
+    padding: 10px 20px;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+}
+
+.city:focus {
+    outline: 3px solid darkblue;
+}
+
+.cityButton {
+    width: 25%;
+    border-radius: 0 10px 10px 0;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 70px;
+}
+
+.temperature {
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details div {
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 15px;
+}

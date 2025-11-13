@@ -6,7 +6,7 @@ const temparatureDiv = document.getElementById('temperature');
 const descriptionDiv = document.getElementById('description');
 const detailsDiv = document.getElementById('details');
 
-const apiKey = '742d3368c5237970da3ce14e6a1b77cf';
+const apiKey = 'YourApiKey';
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
